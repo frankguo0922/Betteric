@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans TC;
+}
+
+.list {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.list .info {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 620px;
+}
+.list .info li {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.list .info .account {
+  margin-left: 720px;
+  font-size: 15px;
+}
+.list .info .leng{
+  font-size: 15px;
+}
+.list .logo {
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+  margin-left: 50px;
+  margin-top: 4px;
+  color:black
+}
+.list a:link {
+  transition-delay: 5s;
+  transition: 0.5s all;
+  text-decoration: none;
+  color: black;
+}
+.list a:hover {
+  transition-delay: 0s;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #c4c4c2;
+  color: black;
+}
+.bgc img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+.bgc .contain {
+  text-align: center;
+  padding-top: 20px;
+}
+.bgc .contain .name{
+  font-size: 35px;
+}
+.bgc .contain hr {
+  width: 400px;
+}
+.bgc .contain .link {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 25px;
+}
+.bgc .contain .link .text {
+  margin: 0;
+}
+.bgc .contain .link a {
+  margin-left: 15px;
+}
+.bgc .contain .link a:link {
+  transition-delay: 5s;
+  transition: 0.5s all;
+  text-decoration: none;
+  color: black;
+}
+.bgc .contain .link a:visited {
+  color: #ffffff;
+  background-color: red;
+}
+.bgc .contain .link a:hover {
+  transition-delay: 0s;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #fafafa;
+  color: gray;
+}
+.bgc .contain .link a:active {
+  text-decoration: none;
+  background-color: gray;
+  color: #fafafa;
+}
+.bgc .contain .btns {
+  margin-top: 500px;
+}
+.bgc .contain .btns button {
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.bgc .contain .btns .btn1 {
+  color: #fff;
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: #3b3e42;
+  box-shadow: #3b3e42;
+}
+.bgc .contain .btns .btn2 {
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: #c4c4c2;
+}
