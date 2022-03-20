@@ -15,18 +15,21 @@ html, body {
   margin: 0;
   list-style: none;
   display: flex;
-  margin-left: 620px;
+  width: 100%;
+  justify-content: space-between;
 }
 .list .info li {
   font-size: 20px;
   margin-left: 15px;
 }
 .list .info .account {
-  margin-left: 720px;
   font-size: 15px;
 }
 .list .info .leng{
   font-size: 15px;
+}
+.bl,.lt{
+  display: flex;
 }
 .list .logo {
   font-size: 35px;
@@ -58,6 +61,8 @@ html, body {
 .bgc .contain {
   text-align: center;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .bgc .contain .name{
   font-size: 35px;
@@ -100,16 +105,19 @@ html, body {
   background-color: gray;
   color: #fafafa;
 }
-.bgc .contain .btns {
-  margin-top: 500px;
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
-.bgc .contain .btns button {
+.btns button {
   cursor: pointer;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-size: 20px;
 }
-.bgc .contain .btns .btn1 {
+.btn1 {
   color: #fff;
   border: none;
   width: 200px;
@@ -117,7 +125,7 @@ html, body {
   background-color: #3b3e42;
   box-shadow: #3b3e42;
 }
-.bgc .contain .btns .btn2 {
+.btn2 {
   border: none;
   width: 200px;
   height: 40px;
